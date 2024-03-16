@@ -59,7 +59,7 @@ type acount = {
     likes: number,
     accounts: string[],
     status: string,
-    details?: object
+    details?: {createAt?: Date, updateAt?: Date}
 }
 
 
