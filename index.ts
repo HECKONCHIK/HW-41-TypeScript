@@ -59,11 +59,11 @@ type acount = {
     likes: number,
     accounts: string[],
     status: string,
-    details?: number
+    details?: object
 }
 
 
-const page1 = {
+const page1: acount = {
  title: 'The awesome page',
  likes: 100,
  accounts: ['Max', 'Anton', 'Nikita'],
@@ -74,7 +74,7 @@ const page1 = {
  }
 }
 
-const page2 = {
+const page2: acount = {
  title: 'Python or Js',
  likes: 5,
  accounts: ['Alex'],
